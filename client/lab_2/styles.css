@@ -14,7 +14,7 @@
   
   a:hover {
     background-color: springgreen;
-    display: inline-block;
+    display: inline;
     border-radius: 2px;
   }
   
