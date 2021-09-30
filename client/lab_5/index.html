@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel='stylesheet' href='styles.css'>
+    <title>Lab 5: Chi-Hao Sheng</title>
+</head>
+<body>
+    <div class="container">
+        <div class="columns is-mobile is-centered">
+            <div class="column is-9">
+                <div class="box title">
+                    <h1 class="title">Chi-Hao Sheng's Lab 5</h1>
+                </div>
+            </div>
+        </div>
+        <div class="columns is-mobile is-multiline is-centered is-vcentered">
+            <div class="column is-narrow">
+                <form action="/api" class="box">
+                    <div class="field">
+                        <label for="first-name" class="label">First Name</label>
+                        <input id="first-name" name="first-name" type="text">
+                    </div>
+                    <div class="field">
+                        <label for="food-pref" class="label">Food Preference</label>
+                        <input id="food-pref" name="first-name" type="text">
+                    </div>
+                    <div class="field">
+                        <fieldset>
+                            <legend><strong>Veggie or Vegan?</strong></legend>
+                        </fieldset>
+                        <label for="veggie" class="radio-label">Veggie</label>
+                        <input id="veggie" name="selection" type="radio">
+                        <label for="vegan" class="radio-label">Vegan</label>
+                        <input id="vegan" name="selection" type="radio">
+                    </div>
+                    <div class="control">
+                        <button class="button is-primary">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="column is-half">
+                <div class="box">
+                    This is going to be something in two weeks.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
