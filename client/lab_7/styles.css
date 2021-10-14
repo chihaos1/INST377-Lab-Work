@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mapid { 
+    height: 380px; 
+}
+
+
+
+.result {
+    background-color: rgb(126, 212, 187);
+}
+
+.name {
+    font-weight: bold;
+}
+
+.type {
+    font-style: italic;
+}
+
+.message {
+    color: red;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 600px){
+    .columns {
+        display: flex;
+        flex-direction: column;
+      }
+}
